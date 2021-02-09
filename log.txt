@@ -1,0 +1,6 @@
+commit 03ace5d131f00bad0f0e40ebdcacc7bc1d8d02f3 (HEAD -> master)
+Author: Vladislav <vladislav.gudov@bk.ru>
+Date:   Tue Feb 9 22:46:16 2021 +0300
+
+    add .gitignore
+
