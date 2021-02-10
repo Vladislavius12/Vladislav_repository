@@ -1,19 +1,18 @@
-На ветке master
+On the master branch
 
-Еще нет коммитов
+No commits yet
 
-Неотслеживаемые файлы:
-  (используйте «git add <файл>…», чтобы добавить в то, что будет включено в коммит)
-	task1/
+Untraceable files:
+(use " git add <file>..." to add to what will be included in the commit)
+task1/
 
-ничего не добавлено в коммит, но есть неотслеживаемые файлы (используйте «git add», чтобы отслеживать их)
+nothing is added to the commit, but there are untraceable files (use "git add" to track them)
 
 ////////////////////////////////////////////////////////////////////////////////////////////
 
-На ветке master
-Неотслеживаемые файлы:
-  (используйте «git add <файл>…», чтобы добавить в то, что будет включено в коммит)
-	task1/
+On the master branch
+Untraceable files:
+(use " git add <file>..." to add to what will be included in the commit)
+task1/
 
-ничего не добавлено в коммит, но есть неотслеживаемые файлы (используйте «git add», чтобы отслеживать их)
-
+nothing is added to the commit, but there are untraceable files (use "git add" to track them)
