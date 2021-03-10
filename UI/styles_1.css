@@ -1,18 +1,35 @@
 html { scroll-behavior: smooth; }
 body {
 background-color: transparent; }
- background-size: auto auto; opacity: 0; }
-.wb_sbg { background: transparent none repeat-x left top; }
-.wb_cont_inner { width: 320px; height: 100%; }
-.wb_cont_bg { width: 320px; margin-left: -160px; }
-.root { min-height: 100%; height: auto; }
-#wb_element_instance1507_0 { opacity: 1; box-sizing: border-box; left: 0px; top: 0px; width: 100%; height: auto; min-width: 32px; min-height: 32px; max-width: 32px; max-height: 32px; margin: 5px 5px 5px 5px; flex: 1 1 auto; }
-#wb_element_instance1507_0 img { border-radius: nullpx; -moz-border-radius: nullpx; -webkit-border-radius: nullpx; border: 0px none #000000; width: 100%; height: auto; }
-#wb_element_instance1507_0 svg { border-radius: nullpx; -moz-border-radius: nullpx; -webkit-border-radius: nullpx; border: 0px none #000000; }
-#wb_element_instance1508_0 p:last-child { margin-bottom: 0; }
-#wb_element_instance1508_0 { opacity: 1; left: 58px; top: 32px; width: 50%; height: auto; margin: 5px 5px 5px 5px; flex: 0 0 auto; }
-#wb_element_instance1509_0 .btn-collapser { display: inline-block; background-color: #d1d1d1; border-color: #2c2c2c; }
-#wb_element_instance1509_0 .btn-collapser > .icon-bar { background-color: #2c2c2c; }
+background-size: auto auto; opacity: 0; }
+.wb_sbg {
+ background: transparent none repeat-x left top; 
+ }
+.wb_cont_inner { 
+width: 320px; height: 100%; 
+}
+.wb_cont_bg {
+ width: 320px; margin-left: -160px; 
+ }
+.root { 
+min-height: 100%; height: auto; 
+}
+#wb_element_instance1507_0 {
+opacity: 1; box-sizing: border-box; left: 0px; top: 0px; width: 100%; height: auto; min-width: 32px; min-height: 32px; max-width: 32px; max-height: 32px; margin: 5px 5px 5px 5px; flex: 1 1 auto; 
+}
+#wb_element_instance1507_0 img {
+border-radius: nullpx; -moz-border-radius: nullpx; -webkit-border-radius: nullpx; border: 0px none #000000; width: 100%; height: auto;
+}
+#wb_element_instance1507_0 svg {
+border-radius: nullpx; -moz-border-radius: nullpx; -webkit-border-radius: nullpx; border: 0px none #000000; }
+#wb_element_instance1508_0 p:last-child {
+ margin-bottom: 0; }
+#wb_element_instance1508_0 {
+ opacity: 1; left: 58px; top: 32px; width: 50%; height: auto; margin: 5px 5px 5px 5px; flex: 0 0 auto; }
+#wb_element_instance1509_0 .btn-collapser { 
+display: inline-block; background-color: #d1d1d1; border-color: #2c2c2c; }
+#wb_element_instance1509_0 .btn-collapser > .icon-bar {
+ background-color: #2c2c2c; }
 #wb_element_instance1509_0 .btn-collapser:hover { background-color: #d1d1d1; border-color: #43852d; }
 #wb_element_instance1509_0 .btn-collapser:hover > .icon-bar { background-color: #43852d; }
 #wb_element_instance1509_0 { left: 260px; top: 40px; z-index: 200; width: 227px; height: auto; margin: 5px 5px 5px 35px; flex: 1 1 auto; }
