@@ -1,0 +1,5 @@
+Optional Parameters:
+i : comma delimited ingredients
+q : normal search query
+p : page
+format=xml : if you want xml instead of json
