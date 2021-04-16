@@ -1,0 +1,19 @@
+GetNewsForApp (v0002)
+GetNewsForApp returns the latest of a game specified by its appID.
+Arguments
+appid
+AppID of the game you want the news of.
+count
+How many news enties you want to get returned.
+maxlength
+Maximum length of each news entry.
+format
+Output format. json (default), xml or vdf.
+Result layout
+An appnews object containing:
+
+appid, the AppID of the game you want news of
+newsitems, an array of news item information:
+An ID, title and url.
+A shortened excerpt of the contents (to maxlength characters), terminated by "..." if longer than maxlength.
+A comma-separated string of labels and UNIX timestamp.
