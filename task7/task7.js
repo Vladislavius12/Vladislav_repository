@@ -130,10 +130,8 @@ class AdCollection{
         return notValidatedAds;
     }
 
-    clear(){
-        while(this._adList.length != 0){
-            this._adList.pop();
-        }
+    clear() {
+        this.#adList.length = 0;
     }
 }
 
@@ -407,23 +405,6 @@ console.log(adCollection.edit('1',{id:27}));//false(can't change id)
 console.log(adCollection.edit('23',{description:'Some random description'}));//false (can't find element with index=23)
 console.log(adCollection.edit('1',{description:'Some random description', link : 'random.org'}));//true
 console.log(adCollection.get(1));
-
-
-console.log('addAll');
-console.log(adCollection.addAll([
-    {
-        id: '27',
-        description: 'Insomnia bar 10% sale',
-        createdAt: new Date('2021-03-15T23:00:00'),
-        link: 'http://besso.by/',
-        vendor: 'Bar Insomnia',
-        photoLink: 'https://vitrumgroup.ru/upload/iblock/c8d/c8d7bf5c2886338de035551eaf8c2a31.jpg',
-        validUntil: new Date('2021-06-01T23:00:00'),
-        discount: '10%',
-        hashTags: ['alcohol', 'bar'],
-        rating: 4.75,
-        reviews:[]
-    },//will be added
      {
         id: "1",
         description: "BMW X5",
@@ -439,6 +420,13 @@ console.log(adCollection.addAll([
     },//will be returned
 ]));
 
-console.log('clear');
+// clear()
+
+console.log("clear()");
 adCollection.clear();
-console.log(adCollection._adList);
+console.log(adCollection.getPage());
+
+// addAll()
+console.log("addAll()");
+adCollection.addAll(adList);
+console.log(adCollection.getPage());
